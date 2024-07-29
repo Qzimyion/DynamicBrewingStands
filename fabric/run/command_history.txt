@@ -1,0 +1,3 @@
+/locate structure witch_hut
+/locate biome minecraft:swamp
+/tp @s -1114 82 -2315

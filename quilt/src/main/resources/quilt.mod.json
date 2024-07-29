@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "tp",
+    "version": "${version}",
+    "metadata": {
+      "name": "TintedPotions",
+      "description": "Assigns the potions in a brewing stand a different colour depending on the potion in the slot.",
+      "contributors": {
+        "Author": "Qzimyion"
+      },
+      "icon": "assets/tp/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "com.qzimyion.quilt.TintedPotionsQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.20.4"
+      },
+      {
+        "id": "architectury",
+        "version": ">=11.1.17"
+      }
+    ]
+  },
+  "mixin": [
+    "tp.mixins.json"
+  ]
+}

@@ -1,0 +1,135 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 2024-07-29 18:47:02
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:48) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading}
+	at net.minecraftforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:119) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.lambda$new$6(Minecraft.java:611) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.Util.ifElse(Util.java:432) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading,pl:unprotect:A}
+	at net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:602) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ForgeLoadingOverlay.render(ForgeLoadingOverlay.java:146) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading}
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:931) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1250) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:801) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:mixin,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,pl:mixin:APP:architectury.mixins.json:MixinMinecraft,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:234) ~[forge-1.20.4-49.1.2-minecraft-merged-1.20.4-loom.mappings.1_20_4.layered+hash.40359-v2-forge-1.20.4-49.1.2.jar:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:91) ~[fmlloader-1.20.4-49.1.2.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.lambda$makeService$0(CommonLaunchHandler.java:75) ~[fmlloader-1.20.4-49.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) ~[modlauncher-10.1.2.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:74) ~[modlauncher-10.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:114) ~[modlauncher-10.1.2.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:73) ~[modlauncher-10.1.2.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapEntry.main(BootstrapEntry.java:17) ~[modlauncher-10.1.2.jar:?] {}
+	at net.minecraftforge.bootstrap.Bootstrap.moduleMain(Bootstrap.java:188) ~[bootstrap-2.1.0.jar!/:?] {}
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.minecraftforge.bootstrap.Bootstrap.bootstrapMain(Bootstrap.java:133) ~[bootstrap-2.1.0.jar!/:?] {}
+	at net.minecraftforge.bootstrap.Bootstrap.start(Bootstrap.java:53) ~[bootstrap-2.1.0.jar!/:?] {}
+	at net.minecraftforge.bootstrap.ForgeBootstrap.main(ForgeBootstrap.java:19) ~[bootstrap-2.1.0.jar!/:?] {}
+	at juuxel.unionrelauncher.UnionRelauncher.main(UnionRelauncher.java:99) ~[union-relauncher-1.1.1.jar!/:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar!/:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) ~[architectury-transformer-5.2.83-runtime.jar!/:5.2.83] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Suspected Mod: 
+	generated_514d079 (generated_514d079), Version: 1
+		at TRANSFORMER/generated_514d079@1/com.qzimyion.api.ClientHelper.getPhysicalSide(ClientHelper.java)
+Stacktrace:
+	at com.qzimyion.api.ClientHelper.getPhysicalSide(ClientHelper.java) ~[4666455230890975625.jar!/:?] {re:classloading}
+-- MOD tp --
+Details:
+	Mod File: /C:/Users/samya/OneDrive/Pictures/Desktop/ModDev/Minecraft/TintedPotions/forge/build/resources/main/#0!/
+	Failure message: TintedPotions (tp) has failed to load correctly
+		java.lang.NoSuchMethodError: 'com.qzimyion.api.ClientHelper$Side com.qzimyion.api.forge.ClientHelperImpl.getPhysicalSide()'
+	Mod Version: 0.1
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NoSuchMethodError: 'com.qzimyion.api.ClientHelper$Side com.qzimyion.api.forge.ClientHelperImpl.getPhysicalSide()'
+Stacktrace:
+	at com.qzimyion.api.ClientHelper.getPhysicalSide(ClientHelper.java) ~[4666455230890975625.jar:?] {re:classloading}
+	at com.qzimyion.TintedPotions.init(TintedPotions.java:9) ~[4666455230890975625.jar:?] {re:classloading}
+	at com.qzimyion.forge.TintedPotionsForge.<init>(TintedPotionsForge.java:23) ~[%230!/:?] {re:classloading}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:66) ~[javafmllanguage-1.20.4-49.1.2.jar!/:49.1.2] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$5(ModContainer.java:125) ~[fmlcore-1.20.4-49.1.2.jar!/:1.0] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:computing_frames}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.4
+	Minecraft Version ID: 1.20.4
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.2, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 428500408 bytes (408 MiB) / 1365245952 bytes (1302 MiB) up to 2061500416 bytes (1966 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-1235U
+	Identifier: Intel64 Family 6 Model 154 Stepping 4
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 12
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 1024.00
+	Graphics card #0 deviceId: 0x46a8
+	Graphics card #0 versionInfo: DriverVersion=31.0.101.4502
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 23732.33
+	Virtual memory used (MB): 15950.48
+	Swap memory total (MB): 15872.00
+	Swap memory used (MB): 1655.10
+	JVM Flags: 0 total; 
+	ModLauncher: 10.1.2
+	ModLauncher launch target: forge_userdev_client
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		/ slf4jfixer PLUGINSERVICE 
+		/ runtimedistcleaner PLUGINSERVICE 
+		/ runtime_enum_extender PLUGINSERVICE 
+		/ object_holder_definalize PLUGINSERVICE 
+		/ capability_token_subclass PLUGINSERVICE 
+		/ accesstransformer PLUGINSERVICE 
+		/ mixin PLUGINSERVICE 
+		/ eventbus PLUGINSERVICE 
+		/ unprotect PLUGINSERVICE 
+		/ fml TRANSFORMATIONSERVICE 
+		/ ArchitecturyMixinRemapperInjector TRANSFORMATIONSERVICE 
+		/ mixin TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		lowcodefml@49
+		minecraft@1.0
+		javafml@49.1.2
+	Mod List: 
+		                                                  |Minecraft                     |minecraft                     |1.20.4              |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |49.1.2              |COMMON_SET|Manifest: NOSIGNATURE
+		4666455230890975625.jar                           |generated_514d079             |generated_514d079             |1                   |COMMON_SET|Manifest: NOSIGNATURE
+		architectury-forge-11.1.17.jar                    |Architectury                  |architectury                  |11.1.17             |COMMON_SET|Manifest: NOSIGNATURE
+		                                                  |TintedPotions                 |tp                            |0.1                 |ERROR     |Manifest: NOSIGNATURE
+	Crash Report UUID: f3d52fb9-5b8d-4a94-83cd-68e17a6788ef
+	FML: 0.0
+	Forge: net.minecraftforge:49.1.2

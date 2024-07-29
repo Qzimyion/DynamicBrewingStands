@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "tp",
+  "version": "0.1",
+  "name": "TintedPotions",
+  "description": "Assigns the potions in a brewing stand a different colour depending on the potion in the slot.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/tp/tplogo.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.qzimyion.fabric.client.TintedPotionsFabricClient"
+    ]
+  },
+  "mixins": [
+    "tp.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "architectury": ">=11.1.17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

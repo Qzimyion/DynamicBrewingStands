@@ -1,0 +1,21 @@
+{
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-07-29 20:26:08 +0530"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-29 20:25:55 +0530"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2024-07-29 20:25:57 +0530"
+    },
+    "done": false
+  },
+  "DataVersion": 3700
+}
