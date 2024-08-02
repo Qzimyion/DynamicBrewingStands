@@ -1,0 +1,139 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2024-08-01 21:29:44
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at TRANSFORMER/neoforge@21.0.42-beta/net.neoforged.neoforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:57) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23193!/:?] {re:classloading}
+	at TRANSFORMER/neoforge@21.0.42-beta/net.neoforged.neoforge.client.loading.ClientModLoader.completeModLoading(ClientModLoader.java:127) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23193!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.buildInitialScreens(Minecraft.java:672) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:645) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:640) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.lambda$new$7(Minecraft.java:629) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.Util.ifElse(Util.java:509) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:classloading,pl:unprotect:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.lambda$new$8(Minecraft.java:624) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/neoforge@21.0.42-beta/net.neoforged.neoforge.client.loading.NeoForgeLoadingOverlay.render(NeoForgeLoadingOverlay.java:145) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23193!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:931) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:classloading,pl:accesstransformer:B,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.runTick(Minecraft.java:1202) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.Minecraft.run(Minecraft.java:811) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:mixin,pl:unprotect:A,pl:runtimedistcleaner:A,re:classloading,pl:mixin:A,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at TRANSFORMER/minecraft@1.21/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.0.42-beta-minecraft-merged-1.21-loom.mappings.1_21.layered+hash.40359-v2-neoforge-21.0.42-beta.jar%23192!/:?] {re:classloading,pl:unprotect:A,pl:runtimedistcleaner:A}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.loading.targets.NeoForgeClientUserdevLaunchHandler.runService(NeoForgeClientUserdevLaunchHandler.java:23) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.3.jar%23106!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?] {}
+	at dev.architectury.transformer.TransformerRuntime.main(TransformerRuntime.java:219) [architectury-transformer-5.2.83-runtime.jar:5.2.83] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at TRANSFORMER/tp@2.0/com.qzimyion.platforming.neoforge.ClientHelperImpl.getCurrentBus(ClientHelperImpl.java:23) ~[%23194!/:?] {re:classloading}
+-- MOD tp --
+Details:
+	Mod File: /C:/Users/samya/OneDrive/Pictures/Desktop/ModDev/Minecraft/TintedPotions/neoforge/build/resources/main/
+	Failure message: fml.modloading.failedtoloadmod
+	Mod Version: 2.0
+	Mod Issue URL: NOT PROVIDED
+	Exception message: java.lang.NullPointerException: Cannot invoke "java.lang.ref.WeakReference.get()" because "com.qzimyion.platforming.neoforge.ClientHelperImpl.currentBus" is null
+Stacktrace:
+	at TRANSFORMER/tp@2.0/com.qzimyion.platforming.neoforge.ClientHelperImpl.getCurrentBus(ClientHelperImpl.java:23) ~[%23194!/:?] {re:classloading}
+	at TRANSFORMER/tp@2.0/com.qzimyion.platforming.neoforge.ClientHelperImpl.addBlockColorsRegistration(ClientHelperImpl.java:43) ~[%23194!/:?] {re:classloading}
+	at TRANSFORMER/generated_0685d42@1/com.qzimyion.platforming.ClientHelper.addBlockColorsRegistration(ClientHelper.java) ~[6766479942722131173.jar%23197!/:?] {re:classloading}
+	at TRANSFORMER/generated_0685d42@1/com.qzimyion.TintedPotionsClient.init(TintedPotionsClient.java:9) ~[6766479942722131173.jar%23197!/:?] {re:classloading}
+	at TRANSFORMER/generated_0685d42@1/com.qzimyion.TintedPotions.init(TintedPotions.java:10) ~[6766479942722131173.jar%23197!/:?] {re:classloading}
+	at TRANSFORMER/tp@2.0/com.qzimyion.neoforge.TintedPotionsNeoForge.<init>(TintedPotionsNeoForge.java:11) ~[%23194!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?] {}
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:115) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.ModLoader.lambda$constructMods$3(ModLoader.java:152) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.6/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:230) ~[loader-4.0.6.jar%23104!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {re:computing_frames}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21
+	Minecraft Version ID: 1.21
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.2, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 393810672 bytes (375 MiB) / 1236271104 bytes (1179 MiB) up to 2061500416 bytes (1966 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-1235U
+	Identifier: Intel64 Family 6 Model 154 Stepping 4
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 2.50
+	Number of physical packages: 1
+	Number of physical CPUs: 10
+	Number of logical CPUs: 12
+	Graphics card #0 name: Intel(R) Iris(R) Xe Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 1024.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.4502
+	Memory slot #0 capacity (MiB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 23732.33
+	Virtual memory used (MiB): 15805.04
+	Swap memory total (MiB): 15872.00
+	Swap memory used (MiB): 2037.54
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 160800.61, total: 487417.00
+	Space in storage for workdir (MiB): available: 160800.61, total: 487417.00
+	JVM Flags: 0 total; 
+	ModLauncher: 11.0.3+main.0f24dec3
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher services: 
+		sponge-mixin-0.13.4+mixin.0.8.5.jar mixin PLUGINSERVICE 
+		loader-4.0.6.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.6.jar runtime_enum_extender PLUGINSERVICE 
+		unprotect-1.2.0.jar unprotect PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.6.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.3.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.3.jar mixin-synthetic-package TRANSFORMATIONSERVICE 
+		modlauncher-11.0.3.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		neoforge-21.0.42-beta-minecraft-merged-1.21-loom.m|Minecraft                     |minecraft                     |1.21                |Manifest: NOSIGNATURE
+		6766479942722131173.jar                           |generated_0685d42             |generated_0685d42             |1                   |Manifest: NOSIGNATURE
+		architectury-neoforge-13.0.2.jar                  |Architectury                  |architectury                  |13.0.2              |Manifest: NOSIGNATURE
+		main                                              |TintedPotions                 |tp                            |2.0                 |Manifest: NOSIGNATURE
+		neoforge-21.0.42-beta-minecraft-merged-1.21-loom.m|NeoForge                      |neoforge                      |21.0.42-beta        |Manifest: NOSIGNATURE
+	Crash Report UUID: 55ecc3c1-1704-4210-af5b-e679eea24dd2
+	FML: 4.0.6
+	NeoForge: 21.0.42-beta
