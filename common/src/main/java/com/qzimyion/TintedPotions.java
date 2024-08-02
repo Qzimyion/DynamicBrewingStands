@@ -1,6 +1,6 @@
 package com.qzimyion;
 
-import com.qzimyion.api.ClientHelper;
+import com.qzimyion.platforming.ClientHelper;
 
 public final class TintedPotions {
     public static final String MOD_ID = "tp";
