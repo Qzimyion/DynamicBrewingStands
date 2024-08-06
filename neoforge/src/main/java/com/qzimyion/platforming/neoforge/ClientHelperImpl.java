@@ -46,24 +46,6 @@ public class ClientHelperImpl {
             }
         }
 
-        public static void addBlockColorsRegistration(Consumer<ClientHelper.BlockColorEvent> eventListener) {
-            assertInitPhase();
-            Consumer<RegisterColorHandlersEvent.Block> eventConsumer = event -> {
-                eventListener.accept(new ClientHelper.BlockColorEvent() {
-                    @Override
-                    public void register(BlockColor color, Block... block) {
-                        event.register(color, block);
-                    }
-
-                    @Override
-                    public int getColor(BlockState block, BlockAndTintGetter level, BlockPos pos, int tint) {
-                        return event.getBlockColors().getColor(block, level, pos, tint);
-                    }
-                });
-            };
-            getCurrentBus().addListener(eventConsumer);
-        }
-
         private static WeakReference<IEventBus> currentBus = null;
 
         public static void startRegistering(IEventBus bus) {
@@ -76,9 +58,27 @@ public class ClientHelperImpl {
                 throw new IllegalStateException("Bus is null. You must call startRegistering before registering events");
             return b;
         }
+    }
 
-        public static ClientHelper.Side getPhysicalSide() {
-            return FMLEnvironment.dist == Dist.CLIENT ? ClientHelper.Side.CLIENT : ClientHelper.Side.SERVER;
-        }
+    public static ClientHelper.Side getPhysicalSide() {
+        return FMLEnvironment.dist == Dist.CLIENT ? ClientHelper.Side.CLIENT : ClientHelper.Side.SERVER;
+    }
+
+    public static void addBlockColorsRegistration(Consumer<ClientHelper.BlockColorEvent> eventListener) {
+        Platform.assertInitPhase();
+        Consumer<RegisterColorHandlersEvent.Block> eventConsumer = event -> {
+            eventListener.accept(new ClientHelper.BlockColorEvent() {
+                @Override
+                public void register(BlockColor color, Block... block) {
+                    event.register(color, block);
+                }
+
+                @Override
+                public int getColor(BlockState block, BlockAndTintGetter level, BlockPos pos, int tint) {
+                    return event.getBlockColors().getColor(block, level, pos, tint);
+                }
+            });
+        };
+        Platform.getCurrentBus().addListener(eventConsumer);
     }
 }

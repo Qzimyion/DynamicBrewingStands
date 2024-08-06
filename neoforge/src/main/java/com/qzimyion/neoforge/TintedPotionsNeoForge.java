@@ -6,6 +6,7 @@ import com.qzimyion.TintedPotions;
 
 @Mod(TintedPotions.MOD_ID)
 public final class TintedPotionsNeoForge {
+
     public TintedPotionsNeoForge() {
         TintedPotions.init();
     }
