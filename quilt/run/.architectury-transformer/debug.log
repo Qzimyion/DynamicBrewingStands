@@ -1,7 +1,7 @@
 [Architectury Transformer] Architectury Runtime 5.2.83
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Provided 115 classpath jar(s):
+[Architectury Transformer DEBUG] Provided 117 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\samya\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
 [Architectury Transformer DEBUG]  - C:\Users\samya\.gradle\caches\modules-2\files-2.1\org.quiltmc\quilt-loader\0.26.4-beta.1\42afa527138e9354e78d3c402617480bd7c91b29\quilt-loader-0.26.4-beta.1.jar
 [Architectury Transformer DEBUG]  - C:\Users\samya\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.1.0\7af6a669488450c4a07c2c3254e2151df42d7d04\annotations-24.1.0.jar
@@ -117,17 +117,50 @@
 [Architectury Transformer DEBUG]  - C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_40359_v2_arch_quilt_arch_quilt\org\quiltmc\quilted-fabric-api\fabric-resource-loader-v0\11.0.0-alpha.3+0.100.7-1.21\fabric-resource-loader-v0-11.0.0-alpha.3+0.100.7-1.21.jar
 [Architectury Transformer DEBUG]  - C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_40359_v2_arch_quilt_arch_quilt\org\quiltmc\quilted-fabric-api\fabric-sound-api-v1\11.0.0-alpha.3+0.100.7-1.21\fabric-sound-api-v1-11.0.0-alpha.3+0.100.7-1.21.jar
 [Architectury Transformer DEBUG]  - C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_40359_v2_arch_quilt_arch_quilt\org\quiltmc\quilted-fabric-api\fabric-transitive-access-wideners-v1\11.0.0-alpha.3+0.100.7-1.21\fabric-transitive-access-wideners-v1-11.0.0-alpha.3+0.100.7-1.21.jar
-[Architectury Transformer] Read classpath in 2.742 s
+[Architectury Transformer DEBUG]  - C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_40359_v2_arch_quilt_arch_quilt\org\quiltmc\qsl\core\crash_info\10.0.0-alpha.1+1.21\crash_info-10.0.0-alpha.1+1.21.jar
+[Architectury Transformer DEBUG]  - C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_layered_hash_40359_v2_arch_quilt_arch_quilt\org\quiltmc\qsl\core\qsl_base\10.0.0-alpha.1+1.21\qsl_base-10.0.0-alpha.1+1.21.jar
+[Architectury Transformer] Read classpath in 1.572 s
 [Architectury Transformer DEBUG] Closed File Systems for C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar to C:\Users\samya\AppData\Local\Temp\4073145663531978273.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@23fe1d71
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeQuiltMod@28ac3dc3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@32eebfca
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@4e718207
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1d371b2d
-[Architectury Transformer DEBUG] Transforming from C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar to C:\Users\samya\AppData\Local\Temp\4073145663531978273.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar to C:\Users\samya\AppData\Local\Temp\11395408224998871927.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@150c158
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeQuiltMod@4524411f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@401e7803
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@10dba097
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1786f9d5
+[Architectury Transformer DEBUG] Transforming from C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar to C:\Users\samya\AppData\Local\Temp\11395408224998871927.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/mixins/BrewingStandTEMixin with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper$BlockColorImpl with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper$Side with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/StandTinter with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/TintedPotions with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/qzimyion/TintedPotionsClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Checking whether /tp-common-common-refmap.json is a mixin config.
+[Architectury Transformer DEBUG] Checking whether /tp.mixins.json is a mixin config.
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\samya\AppData\Local\Temp\11395408224998871927.jar
+[Architectury Transformer] Listening at C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/TintedPotions.class to com/qzimyion/TintedPotions.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/qzimyion/TintedPotions with maxs=true frames=true
-[Architectury Transformer DEBUG] Checking whether /tp.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\samya\AppData\Local\Temp\4073145663531978273.jar
-[Architectury Transformer] Listening at C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\common\build\devlibs\tp-common-2.0-dev.jar
+[Architectury Transformer DEBUG] Transformed com/qzimyion/TintedPotions in 5.131 ms
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/platforming/ClientHelper.class to com/qzimyion/platforming/ClientHelper.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/qzimyion/platforming/ClientHelper in 497.0 μs
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/platforming/ClientHelper$Side.class to com/qzimyion/platforming/ClientHelper$Side.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper$Side with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/qzimyion/platforming/ClientHelper$Side in 872.9 μs
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/TintedPotionsClient.class to com/qzimyion/TintedPotionsClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/TintedPotionsClient with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/qzimyion/TintedPotionsClient in 514.2 μs
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/platforming/ClientHelper$BlockColorImpl.class to com/qzimyion/platforming/ClientHelper$BlockColorImpl.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/platforming/ClientHelper$BlockColorImpl with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/qzimyion/platforming/ClientHelper$BlockColorImpl in 328.3 μs
+[Architectury Transformer DEBUG] Transforming from com/qzimyion/StandTinter.class to com/qzimyion/StandTinter.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/qzimyion/StandTinter with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/qzimyion/StandTinter in 588.5 μs

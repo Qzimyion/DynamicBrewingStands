@@ -27,7 +27,7 @@ public class StandTinter implements BlockColor {
                 if (!item.isEmpty() && item.has(DataComponents.POTION_CONTENTS)) {
                     return item.getOrDefault(DataComponents.POTION_CONTENTS, PotionContents.EMPTY).getColor();
                 }
-                else return -1;
+                else return 0xeab676;
             }
         }
         return 0xffffff;

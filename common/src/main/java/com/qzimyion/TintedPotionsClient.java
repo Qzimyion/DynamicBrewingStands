@@ -6,14 +6,10 @@ import net.minecraft.world.level.block.Blocks;
 public class TintedPotionsClient {
 
     public static void init() {
-        ClientHelper.addBlockColorsRegistration(TintedPotionsClient::registerBlockColors);
+        ClientHelper.blockColReg(TintedPotionsClient::registerBlockColors);
     }
 
-    public static void initNeo(){
-
-    }
-
-    private static void registerBlockColors(ClientHelper.BlockColorEvent event){
+    private static void registerBlockColors(ClientHelper.BlockColorImpl event){
         event.register(new StandTinter(), Blocks.BREWING_STAND);
     }
 }

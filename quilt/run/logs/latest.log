@@ -1,30 +1,18 @@
-[12:47:17] [main/INFO] (Quilt Loader/GameProvider) Loading Minecraft 1.21 with Quilt Loader 0.26.4-beta.1
-[12:47:17] [main/INFO] (Quilt Loader/Mappings) Loading mappings: jar:file:/C:/Users/samya/.gradle/caches/fabric-loom/1.21/loom.mappings.1_21.layered+hash.40359-v2-arch-quilt/mappings.jar!/mappings/mappings.tiny
-[12:47:18] [main/ERROR] (Quilt Loader/Discovery) Mod at path C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\build\resources\main is not included in the loom 'mods' block! This will be an error in a future version of Loader!
-[12:47:19] [main/ERROR] (Quilt Loader) Crashed! The full crash report has been saved to C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\run\crash-reports\crash-2024-07-30_12.47.19.1063-quilt_loader.txt
-[12:47:19] [main/ERROR] (Quilt Loader) Partial Report:
----- Quilt Loader: Failed to load ----
-Date/Time: 2024/07/30 12:47:19.1375 [+0530]
-Quilt Loader Version: 0.26.4-beta.1
-
--- Error 1 --
-
-TintedPotions requires any version of quilt_base, which is missing!
-
-- /Users/samya/OneDrive/Pictures/Desktop/ModDev/Minecraft/TintedPotions/quilt/build/resources/main
-
-
--- Plugin State --
-
-Cycle number = 1
-Cycle Step = SOLVE
-
-Loaded Plugins (2):
- - 'quilt_loader' (Builtin)
- - 'quilted_fabric_loader' (Builtin)
-
-
-
-
----- end of report ----
-[12:47:19] [main/ERROR] (Quilt Loader) For more details see the full crash report file: C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\run\crash-reports\crash-2024-07-30_12.47.19.1063-quilt_loader.txt
+[00:00:02] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[00:00:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[00:00:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[00:00:02] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[00:00:02] [Server thread/INFO] (Minecraft) Player435 lost connection: Disconnected
+[00:00:02] [Server thread/INFO] (Minecraft) Player435 left the game
+[00:00:02] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[00:00:03] [Server thread/INFO] (Minecraft) Stopping server
+[00:00:03] [Server thread/INFO] (Minecraft) Saving players
+[00:00:03] [Server thread/INFO] (Minecraft) Saving worlds
+[00:00:03] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[00:00:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[00:00:05] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[00:00:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[00:00:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:05] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:06] [Render thread/INFO] (Minecraft) Stopping!

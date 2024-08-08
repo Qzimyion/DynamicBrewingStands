@@ -54,7 +54,7 @@ Details:
 Stacktrace:
 	at TRANSFORMER/tp@2.0/com.qzimyion.platforming.neoforge.ClientHelperImpl.getCurrentBus(ClientHelperImpl.java:23) ~[%23194!/:?] {re:classloading}
 	at TRANSFORMER/tp@2.0/com.qzimyion.platforming.neoforge.ClientHelperImpl.addBlockColorsRegistration(ClientHelperImpl.java:47) ~[%23194!/:?] {re:classloading}
-	at TRANSFORMER/generated_86f76cc@1/com.qzimyion.platforming.ClientHelper.addBlockColorsRegistration(ClientHelper.java) ~[2005891299517746031.jar%23197!/:?] {re:classloading}
+	at TRANSFORMER/generated_86f76cc@1/blockColReg(ClientHelper.java) ~[2005891299517746031.jar%23197!/:?] {re:classloading}
 	at TRANSFORMER/generated_86f76cc@1/com.qzimyion.TintedPotionsClient.init(TintedPotionsClient.java:9) ~[2005891299517746031.jar%23197!/:?] {re:classloading}
 	at TRANSFORMER/generated_86f76cc@1/com.qzimyion.TintedPotions.init(TintedPotions.java:10) ~[2005891299517746031.jar%23197!/:?] {re:classloading}
 	at TRANSFORMER/tp@2.0/com.qzimyion.neoforge.TintedPotionsNeoForge.<init>(TintedPotionsNeoForge.java:11) ~[%23194!/:?] {re:classloading}
