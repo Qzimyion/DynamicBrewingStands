@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[49,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "tp"
+version = "2.0"
+displayName = "TintedPotions"
+authors = "Qzimyion"
+description = '''
+Assigns the potions in a brewing stand a different colour depending on the potion in the slot.
+'''
+logoFile = "META-INF/assets/tp/tplogo.png"
+
+[[dependencies.tp]]
+modId = "forge"
+mandatory = true
+versionRange = "[49,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.tp]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"

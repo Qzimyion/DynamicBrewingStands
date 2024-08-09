@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/tp.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/tp.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/tp.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/tp.common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/tp.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/tp.common.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/tp.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/tp.fabric.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/tp.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/tp.fabric.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/tp.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/tp.neoforge.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/tp.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/tp.neoforge.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/tp.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/tp.quilt.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/tp.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/tp.quilt.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TintedPotions_-_Forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TintedPotions_-_Forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TintedPotions_-_Forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TintedPotions_-_Forge.test.iml" />
     </modules>
   </component>
 </project>

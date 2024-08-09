@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "net.github.qzimyion.tintedpotions.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BrewingStandTEMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
