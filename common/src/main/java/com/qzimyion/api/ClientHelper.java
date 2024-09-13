@@ -2,11 +2,7 @@ package com.qzimyion.api;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.client.color.block.BlockColor;
-import net.minecraft.core.BlockPos;
-import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockState;
-import org.apache.http.annotation.Contract;
 
 import java.util.function.Consumer;
 
@@ -14,8 +10,6 @@ public class ClientHelper {
 
     public interface BlockColorEvent {
         void register(BlockColor color, Block... block);
-
-        int getColor(BlockState block, BlockAndTintGetter level, BlockPos pos, int tint);
     }
 
     @ExpectPlatform

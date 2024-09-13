@@ -7,10 +7,9 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'tp'
+rootProject.name = 'dynamicbrewingstands'
 
 include 'common'
 include 'fabric'
-include 'forge'
-include 'neoforge'
+include 'fabric-like'
 include 'quilt'

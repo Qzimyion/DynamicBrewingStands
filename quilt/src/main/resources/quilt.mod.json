@@ -2,20 +2,20 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "${group}",
-    "id": "tp",
+    "id": "dynamicbrewingstands",
     "version": "${version}",
     "metadata": {
-      "name": "TintedPotions",
-      "description": "Assigns the potions in a brewing stand a different colour depending on the potion in the slot.",
+      "name": "DynamicBrewingStands",
+      "description": "This is an example description! Tell everyone what your mod is about!",
       "contributors": {
-        "Author": "Qzimyion"
+        "Me!": "Author"
       },
-      "icon": "assets/tp/icon.png"
+      "icon": "assets/dynamicbrewingstands/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "com.qzimyion.quilt.TintedPotionsQuilt"
+        "com.qzimyion.quilt.ExampleModQuilt"
       ]
     },
     "depends": [
@@ -29,15 +29,15 @@
       },
       {
         "id": "minecraft",
-        "version": ">=1.20.4"
+        "version": ">=1.20.1"
       },
       {
         "id": "architectury",
-        "version": ">=11.1.17"
+        "version": ">=9.2.14"
       }
     ]
   },
   "mixin": [
-    "tp.mixins.json"
+    "dynamicbrewingstands.mixins.json"
   ]
 }

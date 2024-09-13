@@ -1,32 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "tp",
-  "version": "0.1",
-  "name": "TintedPotions",
+  "id": "dynamicbrewingstands",
+  "version": "${version}",
+  "name": "DynamicBrewingStands",
   "description": "Assigns the potions in a brewing stand a different colour depending on the potion in the slot.",
   "authors": [
-    "Me!"
+    "Qzimyion"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Qzimyion/DynamicBrewingStands"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/tp/tplogo.png",
-  "environment": "*",
+  "license": "MIT",
+  "icon": "assets/dynamicbrewingstands/logo.png",
+  "environment": "client",
   "entrypoints": {
+    "main": [
+      "com.qzimyion.fabric.ExampleModFabric"
+    ],
     "client": [
-      "com.qzimyion.fabric.client.TintedPotionsFabricClient"
+      "com.qzimyion.fabric.client.ExampleModFabricClient"
     ]
   },
   "mixins": [
-    "tp.mixins.json"
+    "dynamicbrewingstands.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
-    "minecraft": "~1.20.4",
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.20.1",
     "java": ">=17",
-    "architectury": ">=11.1.17",
+    "architectury": ">=9.2.14",
     "fabric-api": "*"
   },
   "suggests": {

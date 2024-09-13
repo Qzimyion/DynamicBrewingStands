@@ -1,9 +1,9 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" factoryName="Application" name="Minecraft Client (:quilt)" type="Application">
     <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime"/>
-    <module name="tp.quilt.main"/>
+    <module name="dynamicbrewingstands.quilt.main"/>
     <option name="PROGRAM_PARAMETERS" value=""/>
-    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=org.quiltmc.loader.impl.launch.knot.KnotClient -Darchitectury.main.class=C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\.gradle\architectury\.main_class -Darchitectury.runtime.transformer=C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\.gradle\architectury\.transforms -Darchitectury.properties=C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\quilt\.gradle\architectury\.properties -Djdk.attach.allowAttachSelf=true -javaagent:C:\Users\samya\OneDrive\Pictures\Desktop\ModDev\Minecraft\TintedPotions\.gradle\architectury\architectury-transformer-agent.jar"/>
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=C:\Users\samya\Desktop\ModDev\dynamicbrewingstands-1.20.1-fabric-quilt-template\quilt\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=org.quiltmc.loader.impl.launch.knot.KnotClient -Darchitectury.main.class=C:\Users\samya\Desktop\ModDev\dynamicbrewingstands-1.20.1-fabric-quilt-template\quilt\.gradle\architectury\.main_class -Darchitectury.runtime.transformer=C:\Users\samya\Desktop\ModDev\dynamicbrewingstands-1.20.1-fabric-quilt-template\quilt\.gradle\architectury\.transforms -Darchitectury.properties=C:\Users\samya\Desktop\ModDev\dynamicbrewingstands-1.20.1-fabric-quilt-template\quilt\.gradle\architectury\.properties -Djdk.attach.allowAttachSelf=true -javaagent:C:\Users\samya\Desktop\ModDev\dynamicbrewingstands-1.20.1-fabric-quilt-template\.gradle\architectury\architectury-transformer-agent.jar"/>
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/quilt/run/"/>
     <method v="2">
       <option enabled="true" name="Make"/>
